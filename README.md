@@ -11,4 +11,8 @@ Object detection optimized specifically for pedestrians, cyclists, and vehicles.
 coming soon...
 
 ### Training data
-coming soon...
+| class | imgs (#) | annotations (#) |
+| --- | --- | --- |
+| bicycle | 255 | 550 |
+| pedestrian | 296 | 2856 |
+| vehicle | 1242 | 8715 |
