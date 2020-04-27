@@ -4,7 +4,7 @@ Object detection optimized specifically for pedestrians, cyclists, and vehicles.
 ### Model versions
 | model | architecture | cpu | tpu | pedestrians | cyclists | vehicles | e-scooters |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| pednet_20200326 | ssdv1 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | 
+| pednet_20200326 | mobilenet ssd v1 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | 
 | coming soon | ? | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 
 
 ### Training data
