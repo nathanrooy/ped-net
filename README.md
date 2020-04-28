@@ -1,5 +1,5 @@
 # PedNet
-Object detection optimized specifically for pedestrians, cyclists, and vehicles. Below is a comparison between Mobilenet V1 and PedNet.
+Object detection optimized specifically for pedestrians, cyclists, and vehicles on edge/mobile hardware. Below is a comparison between Mobilenet V1 and PedNet.
 
 <img src="docs/vid01_pednet.webp">
 <img src="docs/vid01_mobilenet.webp">
