@@ -1,5 +1,7 @@
 # PedNet
 Object detection optimized specifically for pedestrians, cyclists, and vehicles.
+<img src="docs/vid01_pednet.webp">
+<img src="docs/vid01_mobilenet.webp">
 
 ### Model versions
 | model | architecture | cpu | tpu | pedestrians | cyclists | vehicles | e-scooters |
