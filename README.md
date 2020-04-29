@@ -1,8 +1,10 @@
 # PedNet
 Object detection optimized specifically for pedestrians, cyclists, and vehicles on edge/mobile hardware. Below is a comparison between Mobilenet V1 and PedNet.
 
-<img src="docs/vid01_pednet.webp">
-<img src="docs/vid01_mobilenet.webp">
+<p float="left">
+  <img src="docs/vid01_pednet.webp" width="430">
+  <img src="docs/vid01_mobilenet.webp" width="430"> 
+</p>
 
 ### Usage
 Within the `model/` directory there are two versions of PedNet; one that's been compiled for the Coral TPU, and one for TensorFlow Lite.
@@ -12,7 +14,7 @@ Within the `model/` directory there are two versions of PedNet; one that's been 
 pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
 ```
 
-<b>Coral TPU</b>: In order to utilize the Coral TPU, the Edge TPU runtime and TensorFlow Lite interpreter library must be installed. The TensorFlow Lite installation is the same as above, and the Edge TPU can be installed by following the directions [<a target="_blank" href="https://coral.ai/docs/accelerator/get-started/#requirements">here<.a>].
+<b>Coral TPU</b>: In order to utilize the Coral TPU, the Edge TPU runtime and TensorFlow Lite interpreter library must be installed. The TensorFlow Lite installation is the same as above, and the Edge TPU can be installed by following the directions [<a target="_blank" href="https://coral.ai/docs/accelerator/get-started/#requirements">here</a>].
 
 
 
