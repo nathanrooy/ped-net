@@ -16,6 +16,8 @@ pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-
 
 <b>Coral TPU</b>: In order to utilize the Coral TPU, the Edge TPU runtime and TensorFlow Lite interpreter library must be installed. The TensorFlow Lite installation is the same as above, and the Edge TPU can be installed by following the directions [<a target="_blank" href="https://coral.ai/docs/accelerator/get-started/#requirements">here</a>].
 
+Once the required libraries have been installed, usage is the same as any other TF model. Input image size is [300x300x3].
+
 
 
 ### Model versions
