@@ -23,10 +23,10 @@ Once the required libraries have been installed, usage is the same as any other 
 ### Model versions
 | model | architecture | cpu | tpu | pedestrians | cyclists | vehicles | e-scooters |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| pednet_20200326 | mobilenet ssd v1 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | 
+| pednet_20200517 | mobilenet ssd v1 | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | 
 | coming soon | ? | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | 
 
-### Training data
+### Training data (as of 2020-05-17)
 | class | imgs (#) | annotations (#) |
 | --- | --- | --- |
 | bicycle | 492 | 1139 |
