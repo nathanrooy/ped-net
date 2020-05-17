@@ -29,9 +29,9 @@ Once the required libraries have been installed, usage is the same as any other 
 ### Training data
 | class | imgs (#) | annotations (#) |
 | --- | --- | --- |
-| bicycle | 255 | 550 |
-| pedestrian | 296 | 2856 |
-| vehicle | 1242 | 8715 |
+| bicycle | 492 | 1139 |
+| pedestrian | 390 | 3194 |
+| vehicle | 1375 | 9302 |
 | e-scooter | --- | --- |
 
 ### Performance
