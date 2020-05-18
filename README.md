@@ -6,7 +6,7 @@ Object detection optimized specifically for pedestrians, cyclists, and vehicles 
   <img src="docs/vid01_mobilenet.webp" width="430"> 
 </p>
 
-### Usage
+## Usage
 Within the `model/` directory there are two versions of PedNet; one that's been compiled for the Coral TPU, and one for TensorFlow Lite.
 
 <b>TF Lite</b>: To use this version, simply install the TensorFlow Lite interpreter library which can be found [<a target="_blank" href="https://www.tensorflow.org/lite/guide/python">here</a>]. If you're installing this on a Raspberry Pi running Raspbian Buster make sure to use the Python wheel built for Linux (ARM 64) and Python 3.7 which can achieved with the following: 
@@ -20,13 +20,13 @@ Once the required libraries have been installed, usage is the same as any other 
 
 
 
-### Model versions
+## Model versions
 | model | architecture | cpu | tpu | pedestrians | cyclists | vehicles | e-scooters |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | pednet_20200517 | mobilenet ssd v1 | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | 
 | coming soon | ? | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 
 
-### Training data (as of 2020-05-17)
+## Training data (as of 2020-05-17)
 | class | imgs (#) | annotations (#) |
 | --- | --- | --- |
 | bicycle | 492 | 1139 |
@@ -34,5 +34,5 @@ Once the required libraries have been installed, usage is the same as any other 
 | vehicle | 1375 | 9302 |
 | e-scooter | --- | --- |
 
-### Performance
+## Performance
 coming soon...
